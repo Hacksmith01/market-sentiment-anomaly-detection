@@ -1,1 +1,33 @@
+# Data ingestion
+yfinance==0.2.36
+feedparser==6.0.11
+newsapi-python==0.2.7
+apscheduler==3.10.4
 
+# Database
+asyncpg==0.29.0
+sqlalchemy[asyncio]==2.0.25
+psycopg2-binary==2.9.9
+
+# Message queue
+redis==5.0.1
+
+# NLP
+transformers==4.38.2
+torch==2.2.0
+scipy==1.12.0
+
+# API
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+python-multipart==0.0.9
+
+# Alerts
+python-telegram-bot==20.8
+
+# Utilities
+python-dotenv==1.0.1
+pandas==2.2.0
+numpy==1.26.4
+requests==2.31.0
